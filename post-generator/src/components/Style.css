@@ -1,0 +1,51 @@
+.navContainer {
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+.navInner {
+  /* border: 1px solid blue; */
+  padding: 0 2rem;
+  width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.downloadBtn {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 0.7rem 1.5rem;
+  background-color: rgb(72, 124, 255);
+  color: white;
+  border-radius: 8px;
+  transition: 0.3 ease-in-out;
+}
+
+.downloadBtn:hover {
+  background-color: rgb(42, 102, 255);
+}
+.logo {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.logo span {
+  font-weight: 400;
+  color: rgb(72, 124, 255);
+}
+@media (max-width: 480px) {
+  .downloadBtn {
+    padding: 0.4rem 0.1rem;
+    font-size: 0.7rem;
+  }
+}
