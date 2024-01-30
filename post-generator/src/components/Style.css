@@ -43,6 +43,7 @@
   font-weight: 400;
   color: rgb(72, 124, 255);
 }
+
 @media (max-width: 480px) {
   .downloadBtn {
     padding: 0.4rem 0.1rem;
