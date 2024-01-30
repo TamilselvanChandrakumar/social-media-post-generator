@@ -1,8 +1,8 @@
 .home-container {
   border: 3px solid black;
+  width: calc(100%-22rem);
   min-height: 100vh;
   margin-left: 22rem;
-  width: calc(100%-22rem);
   margin-top: 4.6rem;
   position: fixed;
   background-color: #ebecf0;

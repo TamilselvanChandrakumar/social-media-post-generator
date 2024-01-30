@@ -2,6 +2,7 @@ import "./App.css";
 import TopNav from "./components/TopNav";
 import { useEffect, useState } from "react";
 import MainComponent from "./components/MainComponent";
+import SideNav from "./components/SideNav";
 
 function App() {
   const initialInputs = () => {
@@ -27,6 +28,10 @@ function App() {
   return (
     <div>
       <TopNav></TopNav>
+      <SideNav
+        userDetails={userDetails}
+        setUserDetails={setUserDetails}
+      ></SideNav>
       <MainComponent userDetails={userDetails}></MainComponent>
     </div>
   );
