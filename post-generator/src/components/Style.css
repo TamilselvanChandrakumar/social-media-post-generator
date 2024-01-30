@@ -93,7 +93,7 @@
 .dropdown {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   gap: 7px;
 }
 
@@ -108,10 +108,38 @@
   background-color: rgb(116, 156, 255);
   color: white;
 }
+.bgcolors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-height: 15rem;
+  overflow-y: auto;
+}
+.bgcolor {
+  width: 8rem;
+  height: 10rem;
+  border-radius: 5px;
+}
+.inputfield {
+  border: 1px solid rgb(133, 133, 133, 0.2);
+  width: 90%;
+  height: 2rem;
+  border-radius: 8px;
+  font: inherit;
+  padding: 0.5rem;
+}
 
 @media (max-width: 480px) {
   .downloadBtn {
     padding: 0.4rem 0.1rem;
     font-size: 0.7rem;
+  }
+  .sidenavcontainer {
+    position: unset;
+    width: auto;
+    margin-top: 8rem;
+  }
+  .bgcolor {
+    width: 9rem;
   }
 }
