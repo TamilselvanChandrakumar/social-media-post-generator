@@ -1,5 +1,5 @@
 .home-container {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   width: calc(100%-22rem);
   min-height: 100vh;
   margin-left: 30rem;
@@ -8,7 +8,7 @@
   background-color: #ebecf0;
 }
 .home-inner {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   padding: 40px;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   height: calc(100vh-10rem);
 }
 .previewArea {
-  border: 4px solid brown;
+  /* border: 4px solid brown; */
   width: 100%;
   max-width: 48rem;
   height: 100%;
@@ -28,7 +28,7 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .snippet {
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
   background-color: white;
   max-width: 35rem;
   border-radius: 10px;
