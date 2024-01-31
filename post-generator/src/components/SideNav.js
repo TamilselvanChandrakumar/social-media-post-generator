@@ -193,6 +193,29 @@ const SideNav = ({ userDetails, setUserDetails }) => {
             </div>
           )}
         </li>
+        <li>
+          <div className="navitem" onClick={() => setShow(7)}>
+            <div className="navtitle">
+              <RiRoundedCorner size={25}></RiRoundedCorner>
+              Rounded corners
+            </div>
+            <MdOutlineKeyboardArrowDown size={25}></MdOutlineKeyboardArrowDown>
+          </div>
+          {show === 7 && (
+            <div className="innernavitems">
+              <input
+                type="range"
+                className="inputfield"
+                value={userDetails.rounded}
+                min={0}
+                max={25}
+                onChange={(e) =>
+                  setUserDetails({ ...userDetails, rounded: e.target.value })
+                }
+              ></input>
+            </div>
+          )}
+        </li>
       </ul>
     </div>
   );
